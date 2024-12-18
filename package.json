@@ -19,12 +19,10 @@
     "@transmute/security-context": "0.7.0-unstable.82",
     "loader-utils": "3.2.1",
     "react": "18.2.0",
-    "react-chartjs-2": "5.2.0",
     "react-dom": "18.2.0",
     "react-fontawesome": "1.7.1",
     "react-scripts": "5.0.1",
-    "recharts": "2.14.1",
-    "test-react-chartjs-2": "3.0.4"
+    "recharts": "2.14.1"
   },
   "devDependencies": {
     "@types/react": "18.2.38",

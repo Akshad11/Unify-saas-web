@@ -14,7 +14,7 @@ export default function FAQCard({ que, ans }: MyFAQcardData) {
     setClicked(!isClicked);
   };
 
-  const faqMainStyle = {
+  const faqMainStyle: React.CSSProperties = {
     width: "100%",
     textAlign: "start",
   };

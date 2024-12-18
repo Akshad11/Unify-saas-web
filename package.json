@@ -9,26 +9,27 @@
   ],
   "main": "src/index.tsx",
   "dependencies": {
-    "loader-utils": "3.2.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-scripts": "5.0.1",
-    "@transmute/security-context": "0.7.0-unstable.82",
+    "@coreui/react-chartjs": "3.0.0",
     "@fortawesome/fontawesome-free": "6.7.1",
     "@fortawesome/fontawesome-svg-core": "6.7.1",
-    "@fortawesome/free-solid-svg-icons": "6.7.1",
-    "@fortawesome/free-regular-svg-icons": "6.7.1",
     "@fortawesome/free-brands-svg-icons": "6.7.1",
-    "react-fontawesome": "1.7.1",
+    "@fortawesome/free-regular-svg-icons": "6.7.1",
+    "@fortawesome/free-solid-svg-icons": "6.7.1",
     "@fortawesome/react-fontawesome": "0.2.2",
-    "@coreui/react-chartjs": "3.0.0",
+    "@transmute/security-context": "0.7.0-unstable.82",
+    "loader-utils": "3.2.1",
+    "react": "18.2.0",
     "react-chartjs-2": "5.2.0",
-    "test-react-chartjs-2": "3.0.4",
-    "recharts": "2.14.1"
+    "react-dom": "18.2.0",
+    "react-fontawesome": "1.7.1",
+    "react-scripts": "5.0.1",
+    "recharts": "2.14.1",
+    "test-react-chartjs-2": "3.0.4"
   },
   "devDependencies": {
     "@types/react": "18.2.38",
     "@types/react-dom": "18.2.15",
+    "ajv": "^7.2.4",
     "typescript": "4.4.4"
   },
   "scripts": {

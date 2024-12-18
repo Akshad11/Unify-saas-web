@@ -1,0 +1,107 @@
+.UpdatesMain-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.UpdatesH1 {
+  color: rgba(32, 28, 68, 1);
+}
+.Updatesp {
+}
+.UpdatesCardview-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .UpdatesMain-div {
+    width: 100%;
+    height: 550px;
+  }
+  .UpdatesH1 {
+    font-size: 30px;
+    width: 80%;
+    place-self: center;
+  }
+  .Updatesp {
+    padding: 20px;
+  }
+  .UpdatesCardview-div {
+    max-width: 80%;
+    place-self: center;
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .UpdatesMain-div {
+    width: 100%;
+    height: 550px;
+  }
+  .UpdatesH1 {
+    font-size: 35px;
+    width: 80%;
+    place-self: center;
+  }
+  .Updatesp {
+    padding: 20px;
+  }
+  .UpdatesCardview-div {
+    max-width: 80%;
+    place-self: center;
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .UpdatesMain-div {
+    width: 100%;
+    height: 550px;
+  }
+  .UpdatesH1 {
+    font-size: 35px;
+    width: 80%;
+    place-self: center;
+  }
+  .Updatesp {
+    padding: 20px;
+  }
+  .UpdatesCardview-div {
+    max-width: 80%;
+    place-self: center;
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .UpdatesMain-div {
+    width: 100%;
+    height: 550px;
+  }
+  .UpdatesH1 {
+    font-size: 35px;
+    width: 80%;
+    place-self: center;
+  }
+  .Updatesp {
+    padding: 20px;
+  }
+  .UpdatesCardview-div {
+    max-width: 80%;
+    place-self: center;
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 20px;
+  }
+}

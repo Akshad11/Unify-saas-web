@@ -1,0 +1,40 @@
+.FAQIconMain-div {
+  width: 100%;
+  /* height: 150vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.FAQIcon {
+  margin-top: 70px;
+}
+.FAQHeader {
+  font-size: 35px;
+  margin-top: 30px;
+}
+.FAQText {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.FAQView-div {
+  margin-top: 30px;
+  width: 80%;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.FAQbtnrow {
+  margin-top: 20px;
+  display: flex;
+  width: 400px;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.FAQbtnrow p {
+  font-size: 20px;
+}
